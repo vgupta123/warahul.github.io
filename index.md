@@ -8,7 +8,8 @@ layout: post
 # About Me
 ---------
 
-![Image of Me](https://warahul.github.io/static/images/fig4.jpg =100x20)
+<img src="https://warahul.github.io/static/images/fig4.jpg" alt="Image of Me" style="width: 200px;"/>
+
 
 
 ------
