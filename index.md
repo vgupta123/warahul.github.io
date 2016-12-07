@@ -8,7 +8,7 @@ layout: post
 # About Me
 ---------
 
-![Image of Me](https://arnabgho.github.io/static/images/fig4.jpg)
+![Image of Me](https://warahul.github.io/static/images/fig4.jpg)
 
 I graduated from Indian Institute of Technology, Kanpur in June 2016 and would be joining Professor Philip Torr's Lab for an internship at Oxford from January. I previously worked at Toyota Technological Institute at Chicago with Professor Mohit Bansal and am currently working as an intern at a startup named We Create Problems.
 
