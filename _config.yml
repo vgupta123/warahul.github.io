@@ -24,10 +24,10 @@ author:
 research:
   - text: Machine Learning applications
     elements:
-      - name: Graph Kernels
+      - name: title 1
         # url: http://jmlr.org/papers/v14/tulabandhula13a.html
         text: |
-         For the Course Project for the course Learning With Kernels we implemented the graph kernels based upon SVN Vishwanathan's 2010 paper on Graph Kernels . The crux of the project was to compute the similarity of 2 graphs . We implemented the Random Walk Kernel and the Shortest Path Kernel on MATLAB and tested it on protein and enzymes data which can be represented as a graph .     
+         description     
 unused:
   - name: Googlecode
     url: https://code.google.com/u/112163485814726382683/

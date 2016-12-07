@@ -13,11 +13,11 @@ title: "Publication List"
 
 ----
 
-Lavanya Subramanian,Vivek Seshadri, Arnab Ghosh ,Samira Khan,Onur Mutlu 
+Authors 
 
 -----
 
-”The Application Slowdown Model: Quantifying and Controlling the Impact of Inter-Application Interference at Shared Caches and Main Memory”
+”Paper Name”
 
-The [link](http://users.ece.cmu.edu/~omutlu/pub/application-slowdown-model_micro15.pdf)  to the paper.
+The [link](http://xyz)  to the paper.
 
