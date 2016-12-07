@@ -1,0 +1,100 @@
+markdown: kramdown
+pygments: true
+permalink: /posts/:title
+url: arnabgho.github.io
+#baseurl: arnabgho.github.io    
+exclude: [ Gemfile, Gemfile.lock]
+description: "Personal blog of Arnab Ghosh."
+copyright: Copyright 2015 Arnab Ghosh.
+googleAnalyticsKey: UA-71335999-1
+gravatar_url: http://s.gravatar.com/avatar/a7aa9238f45f8960a195611c0e9cfbf6?s=80
+author:
+  name: Arnab Ghosh
+  github: arnabgho
+  linkedin: arnabgho
+  se:
+    quant: 6185
+    cv: 30815
+    mo: 40595
+    math: 78654
+    overall: 2792935
+  bitbucket: ghosh_arnab
+  kaggle: arnabgho
+  topcoder: arnabgho
+  codeforces: theDarkKnightRises
+  facebook: arnab.ghosh.58367
+
+research:
+  - text: Machine Learning applications
+    elements:
+      - name: Graph Kernels
+        # url: http://jmlr.org/papers/v14/tulabandhula13a.html
+        text: |
+         For the Course Project for the course Learning With Kernels we implemented the graph kernels based upon SVN Vishwanathan's 2010 paper on Graph Kernels . The crux of the project was to compute the similarity of 2 graphs . We implemented the Random Walk Kernel and the Shortest Path Kernel on MATLAB and tested it on protein and enzymes data which can be represented as a graph .     
+      - name: IMDB Sentiment Analysis
+        text: |
+          For the Course Project for the course Machine Learning Tools , Techniques we looked at the imdb movie review dataset to predict the sentiment of a particular movie review . We employed several techniques from Natural Language Processing for example the Google's Word-to-vec and the basic bag-of-words approach and tf-idf vectorizer . We also looked at the Wordnet which was used by Watson as a Semantic Graph for Natural Language Understanding .We looked at several classifiers from Machine Learning Literature and tried most of them and got the best performance using a tf-idf vectorizer and a Support Vector Machine Classifier .          
+      - name: Game Reinforcement Learning
+        text: |
+          For the Course Project for the course Functional Programming we found no implementations for the most common Reinforcement Learning algorithms such as QLearn and SARSA in Haskell. We implemented the QLearn and SARSA algorithms and also provided a DSEL (Domain Specification Language) to specify the moves and the rewards of a 2-Player game and the engine provides support to train a player against a greedy opponent . We tested a small 2 - player game known as the Cat and Mouse game on our framework and it gave good results .
+      - name: Collect PDF Pages
+        text: |
+          For the Course Project for the course Databases we ended up creating a linux app in the "Quickly" framework.We had implemented a system for automatic indexing of slides for later retieval and combining slides to create a new presentation .Since the system was for slides in the PDF format and only looked at the text hence it could also be used by students to automatically create tags for the pages of the book and then retrieve them to create notes for the exam .For the automatic tagging we had used a (Latent Dirichlet Allocation) LDA and Latent Semantic Indexing(LSI) model for automatic indexing and for the database we had used MongoDB .
+#       - name: Machine Learning and The Traveling Repairman
+#         url: http://arxiv.org/abs/1104.5061
+#         text: |
+#          The goal of the Machine Learning and Traveling Repairman Problem (ML and TRP) is to determine a route for a “repair crew,” which repairs nodes on a graph. The repair crew aims to minimize the cost of failures at the nodes, but as in many real situations, the failure probabilities are not known and must be estimated. We introduce two formulations for the ML and TRP, where the first formulation is sequential: failure probabilities are estimated at each node, and then a weighted version of the traveling repairman problem is used to construct the route from the failure cost. We develop two models for the failure cost, based on whether repeat failures are considered, or only the first failure on a node. Our second formulation is a multi-objective learning problem for ranking on graphs. Here, we are estimating failure probabilities simultaneously with determining the graph traversal route; the choice of route influences the estimated failure probabilities. This is in accordance with a prior belief that probabilities that cannot be well-estimated will generally be low. It also agrees with a managerial goal of finding a scenario where the data can plausibly support choosing a route that has a low operational cost. Code is available on Github.
+#   - text: Influence of Machine Learning on Operations Research
+#     elements:
+#       - name: Robust Optimization using Machine Learning for Uncertainty Sets 
+#         url: http://arxiv.org/abs/1407.1097
+#         text: |
+#          Our goal is to build robust optimization problems that make decisions about the future, and where complex data from the past are used to model uncertainty. In robust optimization (RO) generally, the goal is to create a policy for decision-making that is robust to our uncertainty about the future. In particular, we want our policy to best handle the the worst possible situation that could arise, out of an uncertainty set of possible situations. Classically, the uncertainty set is simply chosen by the user, or it might be estimated in overly simplistic ways with strong assumptions; whereas in this work, we learn the uncertainty set from complex data from the past. The past data are drawn randomly from an (unknown) possibly complicated high-dimensional distribution. We propose a new uncertainty set design and show how tools from statistical learning theory can be employed to provide probabilistic guarantees on the robustness of the policy.    
+#   - text: Publication Links
+#     elements:
+#       - name: Google Scholar
+#         url: http://scholar.google.com/citations?user=K6FIDzYAAAAJ
+#       - name: DBLP
+#         url: http://www.informatik.uni-trier.de/~ley/pers/hd/t/Tulabandhula:Theja
+#       - name: Microsoft Academic Search
+#         url: http://academic.research.microsoft.com/Author/3837775/theja-tulabandhula
+#   - text: Other Research Documents
+#     elements:
+#       - name: Challenges in Predictive Analytics for Professional Racing (journal version)
+#         url: http://web.mit.edu/rudin/www/TulabandhulaRu14Racing.pdf
+#       - name: Robust Optimization using ML based Sets (conference version)
+#         url: http://www.cs.uic.edu/pub/Isaim2014/WebPreferences/ISAIM2014_ML_Tulabandhula_Rudin.pdf
+#       - name: Generalization Bounds for Learning with Linear and Quadratic Side Knowledge (conference version)
+#         url: http://www.cs.uic.edu/pub/Isaim2014/WebPreferences/ISAIM2014_Tulabandhula_Rudin.pdf
+#       - name: The Machine Learning and Traveling Repairman Problem (conference version)
+#         url: http://dx.doi.org/10.1007/978-3-642-24873-3_20
+#       - name: The influence of operational cost on estimation (conference version)
+#         url: static/docs/2011Dec_theja_influence.pdf
+#       - name: Talk on NP Complete Subproblem Analysis (seminar)
+#         url: static/docs/2011Oct_theja_NPSubProblems.pdf
+#       - name: Talk on Label Cover Problems (seminar)
+#         url: static/docs/2011Nov_theja_LabelCover.pdf
+#       - name: Talk on Sigma-2P complete problems (seminar)
+#         url: static/docs/2011Oct_theja_Sigma2P.pdf
+#       - name: Talk on Sparsity (seminar)
+#         url: static/docs/2011Feb_theja_SPAMS.pdf
+#       - name: Talk on Learning theory (seminar)
+#         url: static/docs/2011Oct_theja_SPAMS.pdf
+#       - name: Circuits - Checyshev interpolation (unpublished manuscript)
+#         url: http://arxiv.org/abs/1001.1185
+#       - name: Circuits - Asynchronous ADC (conference version)
+#         url: static/docs/2009Jan_theja_paper_aadc.pdf
+#       - name: Signal Processing - Position Rotation Scale Invaraint Transform in FPGA (conference version)
+#         url: static/docs/2008Sept_theja_paper_prsi.pdf
+#       - name: Signal Processing - Phase only Correlation on the Fourier domain (conference version)
+#         url: static/docs/2009Feb_theja_paper_HiPEAC.pdf
+
+# research:
+#   -text:Machine Learning applications in Vision and NLP
+#    elements:
+#       -name: Graph Kernels
+#        text: For the course Project for the course Learning With Kernels we implemented the graph kernels based upon SVN Vishwanathan's 2010 paper on Graph Kernels . The crux of the project was to compute the similarity of 2 graphs . We implemented the Random Walk Kernel and the Shortest Path Kernel on MATLAB and tested it on protein and enzymes data which can be represented as a graph .  
+
+unused:
+  - name: Googlecode
+    url: https://code.google.com/u/112163485814726382683/

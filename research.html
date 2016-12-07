@@ -1,0 +1,30 @@
+---
+layout: base
+title: "Research Documents"
+---
+
+<br/>
+<br/>
+<br/>
+
+<strong>Update Nov 2015</strong> : Please have a look at the <a href="http://arnabgho.github.io/publications.html"> publications page</a> as well.
+
+<br/>
+<br/>
+<br/>
+
+
+{% for metaitem in site.research %}
+<section class="content">
+  <h1 class="thin">{{ metaitem.text }} </h1>
+  <ul class="listing">
+    {% for item in metaitem.elements %}
+    <li>
+		<!-- <a href="{{ item.url }}">{{ item.name }}</a> -->
+		<h2>{{ item.name }} </h2>
+		{% if item.text %}   <p> {{ item.text }} </p> {% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endfor %}
