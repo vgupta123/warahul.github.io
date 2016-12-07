@@ -7,7 +7,7 @@ layout: base
 
 ###News
 
- - [github](http://www.github.com/arnabgho)
+ - [github](http://www.github.com/warahul)
  - [gh-stars](https://github.com/stars/thejat)
  - [news/y](http://news.ycombinator.com)
  - [slideshare](http://www.slideshare.net/)
