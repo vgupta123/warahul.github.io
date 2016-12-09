@@ -15,6 +15,7 @@ I am in my B.Tech. final year at Indian Institute of Technology, Kanpur with CSE
 My primary research interests are in Computer Vision, Machine Learning and Natural Language Processing.
 
 Some of my key projects include :
+
 * User Bias Removal in Fine Grained Sentiment Analysis
 * BAT: An Unsupervised Approach for Construction of Domain-Specific Affect Lexicons
 
