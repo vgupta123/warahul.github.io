@@ -28,10 +28,10 @@ research:
         # url: http://jmlr.org/papers/v14/tulabandhula13a.html
         text: |
          description
-      - name: BAT: An Unsupervised Approach for Construction of Domain-Specific Affect Lexicons
+      - name: "BAT: An Unsupervised Approach for Construction of Domain-Specific Affect Lexicons"
         # url: http://jmlr.org/papers/v14/tulabandhula13a.html
         text: |
-         description
+         description 
   - text: Computer Vision
     elements:
       - name: Modifying DPPnet architecture for VQA
