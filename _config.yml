@@ -22,12 +22,42 @@ author:
   facebook: rahul.wadbude.3
 
 research:
-  - text: Machine Learning applications
+  - text: Natural Language Processing
     elements:
-      - name: title 1
+      - name: User Bias Removal in Fine Grained Sentiment Analysis
         # url: http://jmlr.org/papers/v14/tulabandhula13a.html
         text: |
-         description     
+         description
+      - name: BAT: An Unsupervised Approach for Construction of Domain-Specific Affect Lexicons
+        # url: http://jmlr.org/papers/v14/tulabandhula13a.html
+        text: |
+         description
+  - text: Computer Vision
+    elements:
+      - name: Modifying DPPnet architecture for VQA
+        # url: http://jmlr.org/papers/v14/tulabandhula13a.html
+        text: |
+         description
+      - name: Vehicle detection and classification from traffic videos
+        # url: http://jmlr.org/papers/v14/tulabandhula13a.html
+        text: |
+         description
+  - text: Machine Learning
+    elements:
+      - name: Multiple Kernel Learning
+        # url: http://jmlr.org/papers/v14/tulabandhula13a.html
+        text: |
+         description
+  - text: Others
+    elements:
+      - name: Designing Nachos
+        # url: http://jmlr.org/papers/v14/tulabandhula13a.html
+        text: |
+         description
+      - name: Designing python3 to x86 compiler
+        # url: http://jmlr.org/papers/v14/tulabandhula13a.html
+        text: |
+         description
 unused:
   - name: Googlecode
     url: https://code.google.com/u/112163485814726382683/
