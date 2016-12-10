@@ -14,7 +14,7 @@ title: "Publication List"
 ----
 
 Rahul Wadbude, Vivek Gupta, Dheeraj Mekala, Janish Jindal, Harish Karnick
------
+----
 
 ”User Bias Removal in Fine Grained Sentiment Analysis”<br>
 In preparation/submission
