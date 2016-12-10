@@ -13,8 +13,7 @@ title: "Publication List"
 
 ----
 
-Rahul Wadbude*, Vivek Gupta*, Dheeraj Mekala, Janish Jindal, Harish Karnick 
-*Equal Contribution
+Rahul Wadbude*, Vivek Gupta*, Dheeraj Mekala, Janish Jindal, Harish Karnick (*Equal Contribution)
 -----
 
 ”User Bias Removal in Fine Grained Sentiment Analysis”<br>
