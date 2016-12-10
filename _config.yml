@@ -51,17 +51,17 @@ research:
       - name: Multiple Kernel Learning
         # url: http://jmlr.org/papers/v14/tulabandhula13a.html
         text: |
-         description
+         For our undergraduate project, we chose our area of research in Multiple Kernel Learning. First, we learnt about relative kernel hilbert space, multiple kernel learning algorithm and hierarchical kernel learning. For the experiments on image classification, we used Caltech multiclass object classification dataset with 102 categories. Used one-vs-rest SVM classifier with surf and convolutional deepnet (pretrained BVLC GoogleNet model) features. Caffe framework was used to extract DNN features. Finally, analyzed effects of linear, polynomial, rbf and sigmoid kernels using both features and svm classifier and implemented Simple MKL algorithm and analyzed effect of linear combination of kernels.
   - text: Others
     elements:
       - name: Designing Nachos
         # url: http://jmlr.org/papers/v14/tulabandhula13a.html
         text: |
-         description
+         For the Course Project for the course operating systems, we implemented significant pieces of functionality within the Nachos using C++. First, we implemented UNIX System calls to perform system tasks like I/O, fork, exit etc. Then, we implemented FIFO, SJF and Priority based scheduling to schedule the processes for execution. Finally, implemented various synchronisation using Semaphores and Conditional Variables and implemented Demand Paging to allow system to work with large code/data and small RAM
       - name: Designing python3 to x86 compiler
         # url: http://jmlr.org/papers/v14/tulabandhula13a.html
         text: |
-         description
+         For the Course Project for the course Compilers, we made a Fully functional compiler to convert python 3 source code to x86 assembly code. As part of that, implemented Lexer to tokenize Parser to parse Python3 source code using PLY module of python. Also, designed an IR Language and made a code generator to convert the IR Language to x86 assembly and implemented function calls, variable scoping, Recursion, Nesting of loops etc.
 unused:
   - name: Googlecode
     url: https://code.google.com/u/112163485814726382683/
