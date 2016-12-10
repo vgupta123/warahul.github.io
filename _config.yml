@@ -27,7 +27,11 @@ research:
       - name: User Bias Removal in Fine Grained Sentiment Analysis
         # url: http://jmlr.org/papers/v14/tulabandhula13a.html
         text: |
-         description
+         Major problem in current sentiment classification models is noise due to presence of user biases in reviews rating. We worked on two simple statistical methods to remove user bias noise to improve fine grained sentimental classification. We applied our methods on SNAP published Amazon Fine Food Reviews data-set and two major categories Electronics and Movies & TV of e-Commerce Reviews data-set. We gained improvement on standard evaluation metrics (rmse) for three commonly used feature representation after removing user bias compared to one without removing bias on task of fine grained sentiment analysis.
+
+
+
+
       - name: "BAT: An Unsupervised Approach for Construction of Domain-Specific Affect Lexicons"
         # url: http://jmlr.org/papers/v14/tulabandhula13a.html
         text: |
