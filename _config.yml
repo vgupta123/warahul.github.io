@@ -47,7 +47,7 @@ research:
         # url: http://jmlr.org/papers/v14/tulabandhula13a.html
         text: |
          For the Course Project for the course Recent Advances in Computer Vision, we reproduced the results of "Image Question Answering using Convolutional Neural Network with Dynamic Parameter Prediction", an accepted paper of CVPR 2016. Also, integrated Hierachial co-attention network with DPPnet and got better performance then using DPPnet alone.
-        - text: Machine Learning
+ - text: Machine Learning
     elements:
       - name: Multiple Kernel Learning
         # url: http://jmlr.org/papers/v14/tulabandhula13a.html
