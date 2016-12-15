@@ -15,7 +15,7 @@ title: "Research Documents"
   <ul class="listing">
     {% for item in metaitem.elements %}
     <li>
-		<!-- <a href="{{ item.url }}">{{ item.name }}</a> -->
+		<a href="{{ item.url }}">{{ item.name }}</a>
 		<h2>{{ item.name }} </h2>
 		{% if item.text %}   <p> {{ item.text }} </p> {% endif %}
     </li>
