@@ -38,7 +38,7 @@ research:
          Generic sentiment and emotion lexicons are widely used for the fine-grained analysis of people's affects and opinions on the world wide web. However, In order to accurately detect affect, there is often a need for domain intelligence, in order to disambiguate the meaning and the perceived interpretation of the same words in different contexts. We proposed an unsupervised approach the construction of domain-specific affect lexicons. Experiments on data sets show that our lexicon provides better coverage than standard lexicons on both short texts as well as long texts, and corresponds well with the affect scores assigned by human annotators in the Crime News domain. We have shown the utility of the our approach in detecting emotion on the SemEval 2007 Affect Corpus, where it outperforms the state of the art generic and domain-specific approaches with a higher F-score and a precision of over 70% 
   - text: Computer Vision
     elements:
-      - name: Vehicle detection and classification from traffic videos
+      - name: "Vehicle detection and classification from traffic videos"
         url: https://warahul.github.io/MLT-Classifier/
         text: |
          For the Course Project for the course Machine Learning, we built a vehicle detector and classifier. First, we performed background subtraction to separate vehicles from background using MOG2/MOG/GMG modules of python-opencv. Then tried various features representations (SIFT, SURF, DNN) for images. Google BLVC model from Caffe framework was used to extract DNN features. Finally, classified vehicles into cars, bikes etc. using random forest, SVM etc. algorithms from python sklearn .
