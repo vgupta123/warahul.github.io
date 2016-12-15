@@ -39,7 +39,7 @@ research:
   - text: Computer Vision
     elements:
       - name: Vehicle detection and classification from traffic videos
-        url: https://warahul.github.io/MLT-Classifier/
+        url: "https://warahul.github.io/MLT-Classifier/"
         text: |
          For the Course Project for the course Machine Learning, we built a vehicle detector and classifier. First, we performed background subtraction to separate vehicles from background using MOG2/MOG/GMG modules of python-opencv. Then tried various features representations (SIFT, SURF, DNN) for images. Google BLVC model from Caffe framework was used to extract DNN features. Finally, classified vehicles into cars, bikes etc. using random forest, SVM etc. algorithms from python sklearn .
 
