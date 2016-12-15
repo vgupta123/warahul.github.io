@@ -16,7 +16,7 @@ title: "Research Documents"
     {% for item in metaitem.elements %}
     <li>
 		{% if item.url %} <a href="{{ item.url }}"><h2>{{ item.name }} </h2></a>
-		{% else %} <h2>{{ item.name }} </h2>{% endif %}
+		{% else %} <a href="#"><h2>{{ item.name }} </h2></a>{% endif %}
 		{% if item.text %}   <p> {{ item.text }} </p> {% endif %}
     </li>
     {% endfor %}
