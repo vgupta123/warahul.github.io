@@ -20,7 +20,7 @@ Rahul Wadbude, Vivek Gupta, Dheeraj Mekala, Janish Jindal, Harish Karnick
 ”User Bias Removal in Fine Grained Sentiment Analysis”<br>
 In preparation/submission
 
-The [link](http://xyz)  to the paper.
+The [link](https://arxiv.org/abs/1612.06821)  to the paper.
 
 ----
 
