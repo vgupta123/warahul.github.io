@@ -24,7 +24,7 @@ The [link](https://arxiv.org/abs/1612.06821)  to the paper.
 
 ----
 
-Kokil Jaidka, Niyati Chhaya, Sanket Kedia, Rahul Wadbude, Nallagatla Manikanta 
+Kokil Jaidka, Niyati Chhaya, Rahul Wadbude, Sanket Kedia, Nallagatla Manikanta 
 
 -----
 
